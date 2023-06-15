@@ -42,3 +42,12 @@ body{
 .hover{
     background-color: black;
 }
+
+#rainbow, #clear, #erase{
+    margin: 10px;
+    font-size: 50px;
+}
+
+.eraseon{
+    background-color: aqua;
+}
