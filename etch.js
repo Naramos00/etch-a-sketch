@@ -43,11 +43,9 @@ function singleBlock(){
 function dblClick(){
     count += 1;
     if(count % 2 != 0){
-        console.log(count);
         toggleSmooth();
     }
     else{
-        console.log(count);
         toggleSmoothOff();
     }
 }
@@ -113,7 +111,6 @@ const rainbowBtn = document.getElementById('rainbow');
 rainbowBtn.onclick = toggleRainbow;
 
 function toggleRainbow(){
-    console.log(rainbowBtnOn);
     if(!rainbowBtnOn){
         rainbowBtnOn = true;
         hoverEl.forEach((e) => e.addEventListener('click', RainbowOn))
